@@ -1,0 +1,18 @@
+{
+  "display_name": "ReScript, jest",
+  "image_name": "cyberdojofoundation/rescript_node_jest:XXXXXXX",
+  "visible_filenames": [
+    "package.json",
+    "jest.config.js",
+    "hiker.test.ts",
+    "hiker.ts",
+    "cyber-dojo.sh",
+    ".eslintrc.js",
+    "tsconfig.json"
+  ],
+  "filename_extension": [
+    ".res"
+  ],
+  "max_seconds": 20,
+  "tab_size": 2
+}
