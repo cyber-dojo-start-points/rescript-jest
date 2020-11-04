@@ -1,6 +1,6 @@
 {
   "display_name": "ReScript, jest",
-  "image_name": "cyberdojofoundation/rescript_node_jest:7c56e1e",
+  "image_name": "cyberdojofoundation/rescript_node_jest:995a9ff",
   "visible_filenames": [
     "bsconfig.json",
     "package.json",

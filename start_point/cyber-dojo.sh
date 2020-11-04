@@ -10,10 +10,12 @@ function cyber_dojo_exit()
 {
   # Text files under /sandbox are automatically returned...
   # So remove text files we don't want returned.
+  # From cp command above
   rm -rf ${CYBER_DOJO_SANDBOX}/node_modules
+  # Generated files...
   rm -rf ${CYBER_DOJO_SANDBOX}/lib
   rm ${CYBER_DOJO_SANDBOX}/.merlin
-  rm ${CYBER_DOJO_SANDBOX}/src/*.bs.js
+  find ${CYBER_DOJO_SANDBOX}/src -maxdepth 10 -type f -name "*.bs.js" -delete
 }
 trap cyber_dojo_exit EXIT SIGTERM
 
