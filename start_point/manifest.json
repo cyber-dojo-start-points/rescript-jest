@@ -9,6 +9,6 @@
     "cyber-dojo.sh"
   ],
   "filename_extension": [ ".re" ],
-  "max_seconds": 15,
+  "max_seconds": 20,
   "tab_size": 3
 }
