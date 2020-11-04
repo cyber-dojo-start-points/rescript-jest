@@ -1,18 +1,16 @@
 {
   "display_name": "ReScript, jest",
-  "image_name": "cyberdojofoundation/rescript_node_jest:XXXXXXX",
+  "image_name": "cyberdojofoundation/rescript_node_jest:7c56e1e",
   "visible_filenames": [
+    "bsconfig.json",
     "package.json",
-    "jest.config.js",
-    "hiker.test.ts",
-    "hiker.ts",
-    "cyber-dojo.sh",
-    ".eslintrc.js",
-    "tsconfig.json"
+    "src/Hiker_spec.re",
+    "src/Hiker.re",
+    "cyber-dojo.sh"
   ],
   "filename_extension": [
-    ".res"
+    ".re"
   ],
   "max_seconds": 20,
-  "tab_size": 2
+  "tab_size": 3
 }

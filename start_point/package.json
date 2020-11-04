@@ -1,7 +1,23 @@
 {
+  "name":"hiker",
+  "version": "0.1.0",
   "scripts": {
-      "test": "jest --maxWorkers=2",
-      "lint": "eslint --fix **/*.ts",
-      "typecheck": "tsc --noEmit"
+    "build": "bsb -make-world",
+    "test": "jest --env=node"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "@glennsl/bs-jest": "0.5.1",
+    "bs-platform": "8.3.1",
+    "jest": "26.6.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*_spec.bs.js"
+    ],
+    "verbose": false
   }
 }

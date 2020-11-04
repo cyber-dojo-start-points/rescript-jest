@@ -1,19 +1,18 @@
-# jest cannot use ts-jest when installed globally.
-# npm packages are in /etc/ts/
-# We have to create a local symlink.
-ln -s /etc/ts/node_modules ${CYBER_DOJO_SANDBOX}/node_modules
+# npm packages are in /etc/rescript/
+# Rescript compiles .re into .bs.js files in this dir.
+# So we have to create a copy where we have permissions.
+
+cp -R /etc/rescript/node_modules ${CYBER_DOJO_SANDBOX}/node_modules
 
 function cyber_dojo_exit()
 {
   # Ensure the symlink is removed.
-  unlink ${CYBER_DOJO_SANDBOX}/node_modules
+  rm -rf ${CYBER_DOJO_SANDBOX}/node_modules
+  rm -rf ${CYBER_DOJO_SANDBOX}/lib
+  rm ${CYBER_DOJO_SANDBOX}/.merlin
+  rm ${CYBER_DOJO_SANDBOX}/src/*.bs.js
 }
 trap cyber_dojo_exit EXIT SIGTERM
 
-npm run typecheck || exit 42
-
-#Uncomment this line to enable linting.
-#Note: this will slow down the test.
-#npm run lint
-
+npm run build
 npm run test
