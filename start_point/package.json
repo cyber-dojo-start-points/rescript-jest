@@ -2,7 +2,7 @@
   "name":"hiker",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world",
+    "build": "bsb -make-world | strip-ansi",
     "test": "jest --env=node"
   },
   "keywords": [

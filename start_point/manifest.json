@@ -8,9 +8,7 @@
     "src/Hiker.re",
     "cyber-dojo.sh"
   ],
-  "filename_extension": [
-    ".re"
-  ],
-  "max_seconds": 20,
+  "filename_extension": [ ".re" ],
+  "max_seconds": 10,
   "tab_size": 3
 }
