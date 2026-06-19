@@ -1,6 +1,14 @@
 {
-  "display_name": "ReScript, jest",
-  "image_name": "cyberdojofoundation/rescript_node_jest:fbf254d",
+  "display_name": "ReScript 25.8, jest 30.2",
+  "language": [
+    "ReScript",
+    "25.8"
+  ],
+  "test_framework": [
+    "jest",
+    "30.2"
+  ],
+  "image_name": "ghcr.io/cyber-dojo-languages/rescript_node_jest:4b07fbd",
   "visible_filenames": [
     "bsconfig.json",
     "package.json",
@@ -8,6 +16,7 @@
     "src/Hiker.re",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [ ".re" ],
   "max_seconds": 20,
   "tab_size": 3
