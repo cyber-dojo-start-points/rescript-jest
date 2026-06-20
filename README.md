@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-start-points/rescript-jest.svg?style=svg)](https://circleci.com/gh/cyber-dojo-start-points/rescript-jest)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
-### display_name="ReScript, jest"
-### image_name="[cyberdojofoundation/rescript_node_jest](https://hub.docker.com/repository/docker/cyberdojofoundation/rescript_node_jest)"
+### display_name="ReScript 25.8, jest 30.2"
+### image_name=[ghcr.io/cyber-dojo-languages/rescript_node_jest](https://ghcr.io/cyber-dojo-languages/rescript_node_jest)
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)

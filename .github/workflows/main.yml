@@ -1,0 +1,15 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  red_amber_green_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cyber-dojo-start-points/pinned-checkout@main
+
+      - name: Build Language-Start-Point image, test it
+        run: ./run_tests.sh

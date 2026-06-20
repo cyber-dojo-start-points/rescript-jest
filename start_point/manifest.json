@@ -8,7 +8,7 @@
     "jest",
     "30.2"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/rescript_node_jest:4b07fbd",
+  "image_name": "cyberdojofoundation/rescript_node_jest:fbf254d",
   "visible_filenames": [
     "bsconfig.json",
     "package.json",
