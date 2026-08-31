@@ -2,21 +2,21 @@
   "name":"hiker",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world | strip-ansi",
-    "test": "jest --env=node"
+    "build": "rescript build",
+    "test": "jest --env=node --maxWorkers=2"
   },
   "keywords": [
-    "BuckleScript"
+    "ReScript"
   ],
   "devDependencies": {},
   "dependencies": {
-    "@glennsl/bs-jest": "0.5.1",
-    "bs-platform": "8.3.1",
-    "jest": "26.6.1"
+    "@glennsl/rescript-jest": "0.13.1",
+    "rescript": "12.3.1",
+    "jest": "30.4.2"
   },
   "jest": {
     "testMatch": [
-      "**/*_spec.bs.js"
+      "<rootDir>/src/**/*_spec.bs.js"
     ],
     "verbose": false
   }

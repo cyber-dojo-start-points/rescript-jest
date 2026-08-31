@@ -1,6 +1,5 @@
 {
   "name": "hiker",
-  "version": "0.1.0",
   "sources": {
     "dir": "src",
     "subdirs": true
@@ -10,9 +9,8 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-    "@glennsl/bs-jest"
+  "dependencies": [
+    "@glennsl/rescript-jest"
   ],
-  "namespace": true,
-  "refmt": 3
+  "namespace": true
 }

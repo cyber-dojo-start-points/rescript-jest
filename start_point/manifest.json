@@ -1,23 +1,23 @@
 {
-  "display_name": "ReScript 25.8, jest 30.2",
+  "display_name": "ReScript 12.3, jest 30.4",
   "language": [
     "ReScript",
-    "25.8"
+    "12.3"
   ],
   "test_framework": [
     "jest",
-    "30.2"
+    "30.4"
   ],
-  "image_name": "cyberdojofoundation/rescript_node_jest:fbf254d",
+  "image_name": "ghcr.io/cyber-dojo-languages/rescript_node_jest:e740442",
   "visible_filenames": [
-    "bsconfig.json",
+    "rescript.json",
     "package.json",
-    "src/Hiker_spec.re",
-    "src/Hiker.re",
+    "src/Hiker_spec.res",
+    "src/Hiker.res",
     "cyber-dojo.sh"
   ],
   "rag_lambda": "red_amber_green.rb",
-  "filename_extension": [ ".re" ],
+  "filename_extension": [ ".res" ],
   "max_seconds": 20,
-  "tab_size": 3
+  "tab_size": 2
 }
