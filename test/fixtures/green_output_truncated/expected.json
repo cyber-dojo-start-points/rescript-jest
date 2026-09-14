@@ -1,0 +1,11 @@
+{
+  "matches": [ "^debug: i is 1000, total is 2000$" ],
+  "match_counts": {
+    "^Compiled 3 modules$": 1,
+    "^debug: i is 0, total is 0$": 1,
+    "^PASS": 0,
+    "^Test Suites: ": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": true
+}

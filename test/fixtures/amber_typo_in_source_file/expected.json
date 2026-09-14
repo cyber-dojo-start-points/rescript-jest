@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^ +We've found a bug for you!$": 1,
+    "^ +/sandbox/src/Hiker\\.res:3:[0-9-]+$": 1,
+    "^ +The value sevn can't be found$": 1,
+    "^ +Hint: Did you mean seven\\?$": 1,
+    "^Incremental build failed\\.": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": false
+}

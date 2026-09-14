@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^ +We've found a bug for you!$": 1,
+    "^ +/sandbox/src/Hiker_spec\\.res:5:[0-9-]+$": 1,
+    "^ +The value answr can't be found in Hiker$": 1,
+    "^ +Hint: Did you mean answer\\?$": 1,
+    "^Incremental build failed\\.": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": false
+}

@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^ +We've found a bug for you!$": 1,
+    "^ +/sandbox/src/Hiker\\.res:4:[0-9-]+$": 1,
+    "^ +This has type: string$": 1,
+    "^ +But it's expected to have type: int$": 1,
+    "^Incremental build failed\\.": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": false
+}

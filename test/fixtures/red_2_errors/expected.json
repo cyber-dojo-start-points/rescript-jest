@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^FAIL src/Hiker_spec\\.bs\\.js$": 1,
+    "^ +Panic! Option\\.getOrThrow called for None value$": 2,
+    "^Test Suites: 1 failed, 1 total$": 1,
+    "^Tests: +2 failed, 2 total$": 1,
+    "^Ran all test suites\\.$": 1,
+    "^ +Expected: ": 0,
+    "Warning number": 0,
+    "^PASS": 0
+  },
+  "truncated": false
+}

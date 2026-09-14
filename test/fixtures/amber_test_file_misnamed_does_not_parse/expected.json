@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^ +Syntax error!$": 1,
+    "^ +/sandbox/src/Hiker_tests\\.res:7:[0-9:-]+$": 1,
+    "^ +Did you forget a `\\)` here\\?$": 1,
+    "^Incremental build failed\\.": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": false
+}

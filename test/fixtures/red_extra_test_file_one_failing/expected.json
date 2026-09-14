@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^Compiled 4 modules$": 1,
+    "^PASS src/Hiker_spec\\.bs\\.js$": 1,
+    "^FAIL src/Answer_size_spec\\.bs\\.js$": 1,
+    "^ +Expected: 3$": 1,
+    "^ +Received: 2$": 1,
+    "^Test Suites: 1 failed, 1 passed, 2 total$": 1,
+    "^Tests: +1 failed, 1 passed, 2 total$": 1,
+    "^Ran all test suites\\.$": 1
+  },
+  "truncated": false
+}

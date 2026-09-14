@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^ +Syntax error!$": 1,
+    "^ +/sandbox/src/Checksum\\.res:3:[0-9-]+$": 1,
+    "^Incremental build failed\\.": 1,
+    "^Parsed ": 0,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  },
+  "truncated": false
+}

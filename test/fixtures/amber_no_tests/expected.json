@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^Compiled 2 modules$": 1,
+    "^No tests found, exiting with code 1$": 1,
+    "^ +testMatch: /sandbox/src/\\*\\*/\\*_spec\\.bs\\.js - 0 matches$": 1,
+    "^Pattern: +- 0 matches$": 1,
+    "^PASS": 0,
+    "^FAIL": 0
+  },
+  "truncated": false
+}
